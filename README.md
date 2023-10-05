@@ -1,1 +1,3 @@
-# wazary.netlify.app
+# WAZARY
+
+Website wazary visit at: https://wazary.netlify.app
