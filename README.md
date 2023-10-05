@@ -1,1 +1,1 @@
-# wazary
+# wazary.netlify.app
