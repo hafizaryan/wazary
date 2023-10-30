@@ -32,8 +32,8 @@ Kami sangat menghargai kontribusi dan masukan dari komunitas kami. Jika Anda ing
 
 Anda dapat menghubungi kami melalui beberapa saluran:
 
-- Situs web resmi WAZARY: [wazary.com]([https://www.wazary.com](https://hafizaryan.github.io/wazary)
-- Email: [info@wazary.com](mailto:wazaryx@gmail.com)
+- Situs web resmi WAZARY: [wazary.com]([https://www.wazary.com](https://hafizaryan.github.io/wazary))
+- Email: [wazaryx@gmail.com](mailto:wazaryx@gmail.com)
 - Telepon: 083131944004
 
 Terima kasih telah memilih WAZARY sebagai mitra Anda dalam mengatasi masalah penginstalan software dan sistem operasi. Kami berharap dapat membantu Anda dengan kebutuhan teknis Anda.
