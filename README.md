@@ -1,39 +1,54 @@
 # WAZARY - Layanan Penginstalan Software dan Sistem Operasi
 
-Selamat datang di repositori GitHub resmi kami untuk layanan WAZARY! Kami adalah sebuah bisnis yang didirikan oleh tiga pendiri, Waviq, Zacky, dan Aryan, yang bertujuan untuk membantu Anda dengan penginstalan Software dan Sistem Operasi, serta menawarkan layanan troubleshooting untuk software atau driver yang bermasalah. Kami bertekad untuk menyediakan solusi yang mudah dan handal untuk masalah yang Anda hadapi terkait dengan software dan sistem operasi.
+Selamat datang di repositori GitHub resmi WAZARY. WAZARY adalah bisnis yang didirikan oleh tiga pendiri, Waviq, Zacky, dan Aryan, yang bertujuan membantu pelanggan dengan penginstalan software dan sistem operasi, serta menawarkan layanan troubleshooting untuk software atau driver yang bermasalah.
 
-## Mengapa Memilih WAZARY?
+## Mengapa Memilih WAZARY
 
-Kami memiliki beberapa alasan kuat mengapa Anda harus memilih layanan kami:
+1. Keahlian tim: tim terdiri dari orang-orang yang berpengalaman dalam penginstalan software dan sistem operasi, serta troubleshooting.
+2. Kepuasan pelanggan: kepuasan pelanggan adalah prioritas, dengan komitmen memberikan layanan terbaik.
+3. Fleksibilitas: menangani berbagai jenis software dan sistem operasi, dari perangkat lunak umum hingga sistem operasi khusus, termasuk penyesuaian sesuai kebutuhan.
 
-1. **Keahlian Tim**: Tim kami terdiri dari para ahli yang berpengalaman dalam penginstalan software dan sistem operasi, serta troubleshooting. Kami selalu siap membantu Anda.
+## Cara Menggunakan Layanan
 
-2. **Kepuasan Pelanggan**: Kami memprioritaskan kepuasan pelanggan. Kepuasan Anda adalah prioritas kami, dan kami berkomitmen untuk memberikan layanan terbaik.
+1. Hubungi kami melalui situs web resmi WAZARY atau kontak yang tersedia.
+2. Konsultasikan kebutuhan Anda, dan kami bantu memilih layanan yang sesuai.
+3. Penginstalan diatur jadwalnya sesuai kesepakatan.
+4. Untuk masalah software atau driver, beri tahu kami dan tim akan membantu menyelesaikannya.
 
-3. **Fleksibilitas**: Kami dapat menangani berbagai jenis software dan sistem operasi, dari perangkat lunak umum hingga sistem operasi khusus. Kami juga menyediakan layanan penyesuaian sesuai kebutuhan Anda.
+## Isi Repositori
 
-## Cara Menggunakan Layanan Kami
+Repositori ini berisi situs web profil bisnis WAZARY beserta form kontak yang terhubung ke database:
 
-Anda dapat dengan mudah menggunakan layanan kami:
+- `index.html`, halaman utama situs
+- `layanan.html`, halaman daftar layanan
+- `tentang.html`, halaman tentang WAZARY
+- `contact.php` dan `tambah_aksi.php`, pemrosesan form kontak yang menyimpan pesan pengunjung ke database
+- `koneksi.php`, konfigurasi koneksi database
+- `contactme.sql`, skema database untuk tabel pesan kontak
+- Folder `assets` dan `vendor` berisi aset tampilan dan library pendukung
 
-1. **Menghubungi Kami**: Hubungi kami melalui situs web resmi WAZARY atau melalui kontak yang tersedia di halaman ini.
+## Teknologi
 
-2. **Konsultasi**: Diskusikan kebutuhan Anda dengan tim kami. Kami akan membantu Anda memilih layanan yang sesuai.
+- HTML dan CSS
+- JavaScript
+- PHP native dengan MySQLi
+- MySQL atau MariaDB
 
-3. **Penginstalan**: Kami akan mengatur jadwal penginstalan software atau sistem operasi sesuai kesepakatan.
+## Cara Menjalankan
 
-4. **Troubleshooting**: Jika Anda menghadapi masalah dengan software atau driver, beri tahu kami, dan kami akan segera membantu Anda menyelesaikan masalah tersebut.
+Untuk halaman statis, cukup buka `index.html` di browser. Untuk menjalankan form kontak secara penuh:
 
-## Kontribusi
+Prasyarat: server lokal seperti XAMPP dengan Apache dan MySQL.
 
-Kami sangat menghargai kontribusi dan masukan dari komunitas kami. Jika Anda ingin berkontribusi pada proyek ini, silakan buka Issues atau Pull Requests. Kami akan sangat senang menerima kontribusi Anda.
+1. Salin folder proyek ke dalam `htdocs`.
+2. Buat database bernama `contactme`, lalu impor berkas `contactme.sql`.
+3. Sesuaikan kredensial koneksi pada `koneksi.php` bila perlu.
+4. Buka `http://localhost/wazary/` di browser. Pesan yang dikirim melalui form kontak akan tersimpan pada tabel pesan di database.
 
 ## Hubungi Kami
 
-Anda dapat menghubungi kami melalui beberapa saluran:
-
-- Situs web resmi WAZARY: [wazary.com]([https://www.wazary.com](https://hafizaryan.github.io/wazary))
-- Email: [wazaryx@gmail.com](mailto:wazaryx@gmail.com)
+- Situs web resmi WAZARY: wazary.com (halaman GitHub Pages di hafizaryan.github.io/wazary)
+- Email: wazaryx@gmail.com
 - Telepon: 083131944004
 
-Terima kasih telah memilih WAZARY sebagai mitra Anda dalam mengatasi masalah penginstalan software dan sistem operasi. Kami berharap dapat membantu Anda dengan kebutuhan teknis Anda.
+Terima kasih telah memilih WAZARY sebagai mitra Anda dalam mengatasi masalah penginstalan software dan sistem operasi.
